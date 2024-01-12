@@ -1,0 +1,27 @@
+{
+    "topology": [
+        {
+            "numberOfNeurons": 784,
+            "activationFunction": "relu"
+        },
+        {
+            "numberOfNeurons": 428,
+            "activationFunction": "relu"
+        },
+        {
+            "numberOfNeurons": 128,
+            "activationFunction": "tanh"
+        },
+        {
+            "numberOfNeurons": 10,
+            "activationFunction": ""
+        }
+    ],
+    "bias": 1.0,
+    "learningRate": 0.05,
+    "momentum": 1.0,
+    "epoch": 3,
+    "trainingData": "/path/to/train100.csv",
+    "labelData": "/path/to/train100_label.csv",
+    "weightsFile": "/path/to/weightsMNIST.json"
+}

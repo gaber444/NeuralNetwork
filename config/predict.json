@@ -1,0 +1,24 @@
+{
+    "topology": [
+        {
+            "numberOfNeurons": 784,
+            "activationFunction": "relu"
+        },
+        {
+            "numberOfNeurons": 428,
+            "activationFunction": "relu"
+        },
+        {
+            "numberOfNeurons": 128,
+            "activationFunction": "tanh"
+        },
+        {
+            "numberOfNeurons": 10,
+            "activationFunction": ""
+        }
+    ],
+    "bias": 1.0,
+    "weightsFile": "/path/to/weightsMNIST.json",
+    "testData": "/path/to/test10.csv",
+    "testLabelData": "/path/to/test10_label.csv"
+}

@@ -10,3 +10,5 @@ data/test10_label.csv
 data/test10.csv
 data/weights.json
 data/weightsMNIST.json
+config/config.json
+config/predict1.json
