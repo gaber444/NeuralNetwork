@@ -121,6 +121,16 @@ Below is an example of the JSON configuration file for setting up the neural net
 
 #### Usage
 
+**Clone the repository**
+```bash
+        git clone https://github.com/gaber444/NeuralNetwork.git
+        mkdir build
+        cd build
+        cmake ..
+        make
+```
+
+
 **To use these configurations:**
 
 Place the configuration file in the config directory.
