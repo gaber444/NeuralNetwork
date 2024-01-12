@@ -14,11 +14,10 @@ Customizable Layers and Neurons: Users can define the number of layers and the n
 
 **Multiple Activation Function Options:** The framework supports various activation functions for the neurons. 
 Users can choose from:
-    **ReLU (Rectified Linear Unit):**
-    Effective for non-linear transformations with the advantage of not activating all neurons at the same time.
-    **Tanh (Hyperbolic Tangent):**
+- **ReLU (Rectified Linear Unit):** Effective for non-linear transformations with the advantage of not activating all neurons at the same time.
+- **Tanh (Hyperbolic Tangent):**
     Useful for handling negative inputs, providing a scaled output.
-    **Sigmoid:**
+- **Sigmoid:**
     The default function, offering a smooth gradient and working well for probabilities.
 **Per-Layer Activation Function:** 
 Each layer's activation function can be individually specified in the configuration file, offering high customization for different network behaviors.
