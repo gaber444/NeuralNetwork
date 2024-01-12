@@ -73,16 +73,16 @@ Below is an example of the JSON configuration file used to set up the neural net
 ```
 #### Explanation of Parameters
 
-**topology:** Defines the structure of the neural network. Each entry in the array represents a layer in the network.
-**numberOfNeurons:** The number of neurons in the layer.
-**activationFunction:** The activation function used in the layer. Options are "relu", "tanh", or "" for the default sigmoid function.
-**bias:** The bias value applied to neurons.
-**learningRate:** The rate at which the network learns during training.
-**momentum:** The momentum factor applied to the learning process.
-**epoch:** The number of complete passes through the training dataset.
-**trainingData:** The path to the CSV file containing the training data.
-**labelData:** The path to the CSV file containing the labels for the training data.
-**weightsFile:** The path to the JSON file where the network's learned weights will be stored after training.
+- **topology:** Defines the structure of the neural network. Each entry in the array represents a layer in the network.
+- **numberOfNeurons:** The number of neurons in the layer.
+- **activationFunction:** The activation function used in the layer. Options are "relu", "tanh", or "" for the default sigmoid function.
+- **bias:** The bias value applied to neurons.
+- **learningRate:** The rate at which the network learns during training.
+- **momentum:** The momentum factor applied to the learning process.
+- **epoch:** The number of complete passes through the training dataset.
+- **trainingData:** The path to the CSV file containing the training data.
+- **labelData:** The path to the CSV file containing the labels for the training data.
+- **weightsFile:** The path to the JSON file where the network's learned weights will be stored after training.
 
 Below is an example of the JSON configuration file for setting up the neural network's testing parameters:
 
@@ -112,13 +112,13 @@ Below is an example of the JSON configuration file for setting up the neural net
     "testLabelData": "/path/to/test10_label.csv"
 }
 ```
-**topology:** Same as in training json file.
-**numberOfNeurons:** Same as in training json file.
-**activationFunction:** Same as in training json file.
-**bias:** Same as in training json file.
-**weightsFile:** Path to the JSON file containing the pre-trained weights of the network.
-**testData:** Path to the CSV file containing the test data.
-**testLabelData:** Path to the CSV file containing the test data labels.
+- **topology:** Same as in training json file.
+- **numberOfNeurons:** Same as in training json file.
+- **activationFunction:** Same as in training json file.
+- **bias:** Same as in training json file.
+- **weightsFile:** Path to the JSON file containing the pre-trained weights of the network.
+- **testData:** Path to the CSV file containing the test data.
+- **testLabelData:** Path to the CSV file containing the test data labels.
 
 #### Usage
 
