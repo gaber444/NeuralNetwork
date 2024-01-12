@@ -1,0 +1,12 @@
+build/
+.vscode
+.DS_Store
+classes/NeuralNetworkOLD.cpp
+data/mnist_test.csv
+data/mnist_train.csv
+data/sample_data.csv
+data/sample_label.csv
+data/test10_label.csv
+data/test10.csv
+data/weights.json
+data/weightsMNIST.json
